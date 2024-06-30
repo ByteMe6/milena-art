@@ -9,39 +9,62 @@
   <body>
     <header>
       <nav class="nav">
-        <ul class="navList">
-          <li class="navListElement">
-            <img src="./img/logo.png" class="HeaderLogo" alt="Art shop" />
-          </li>
-          <li class="navListElement">
-            <a href="#whatIDo" class="link">Что я делаю</a>
-          </li>
-          <li class="navListElement">
-            <a href="#whatIDo" class="link">Что я делаю</a>
-          </li>
-          <li class="navListElement">
-            <a href="#whatIDo" class="link">Что я делаю</a>
-          </li>
-          <li class="navListElement">
-            <a href="#whatIDo" class="link">Что я делаю</a>
-          </li>
-          <li class="navListElement">
-            <a href="#whatIDo" class="link">Что я делаю</a>
-          </li>
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title"><img src="./img/logo.png" alt="" style="width: 60px;"></div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <ul class="nav-list">
+          <li><a href="#hero">Кто я</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="hero">
-        <p class="introducing">
-          introducing
-        </p>
-        <h1 class="name">
-          Милена
-        </h1>
-        <img src="./img/heroBg.png" class="wawes" alt="">
+      <section class="hero" id="hero">
+        <p class="introducing">introducing</p>
+        <h1 class="name">Милена</h1>
+        <p class="heroText"></p>
+        <img src="./img/heroBg.png" class="wawes" alt="" />
       </section>
       <section class="whatIDo" id="whatIDo"></section>
     </main>
   </body>
 </html>
+
+<!-- 
+header{
+    height: 1000px;
+    // background-color: rgb(21,130,193);
+    width: 100%;
+        height: 100%;
+        background-image: linear-gradient(45deg,
+                rgb(21, 130, 193) 0%,
+                rgb(14, 106, 159) 25%,
+                rgb(74, 150, 194) 50%,
+                rgb(76, 169, 223) 75%,
+                rgb(121, 194, 236) 100%);
+        background-size: 400% 400%;
+        animation: wave 10s ease infinite;
+        }
+@keyframes wave {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+} -->
