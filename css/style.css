@@ -229,13 +229,40 @@ h1 {
   background: url("https://graphic-designer.weblium.site/res/5f987790dc028700210b11bd/5f9a3c016053350021920a77_optimized.webp");
   width: 200px;
   padding: 30px;
+  border-radius: 20px;
 }
 
 .card-list {
   display: flex;
   justify-content: space-around;
+  margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .width2 {
   margin-bottom: 100px;
+}
+
+.about {
+  text-align: center;
+  margin: 0;
+  height: 1000px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(45deg, rgb(244, 183, 14) 0%, rgb(233, 183, 14) 25%, rgb(233, 131, 81) 50%, rgb(233, 131, 14) 75%, rgb(233, 183, 14) 100%);
+  background-size: 400% 400%;
+  animation: wave 10s ease infinite;
+}
+
+.aboutContainer {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+
+.aboutMainText {
+  max-width: 400px;
+  text-align: left;
 }

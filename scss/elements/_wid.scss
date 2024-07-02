@@ -3,7 +3,7 @@
   padding-bottom: 0;
 }
 .whatIDo {
-    padding: 50px;
+  padding: 50px;
   text-align: center;
   margin: 0;
   height: 1000px;
@@ -39,11 +39,14 @@
   background: url("https://graphic-designer.weblium.site/res/5f987790dc028700210b11bd/5f9a3c016053350021920a77_optimized.webp");
   width: 200px;
   padding: 30px;
+  border-radius: 20px;
 }
-.card-list{
-        display: flex;
-            justify-content: space-around;
+.card-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  flex-wrap: wrap;
 }
-.width2{
-    margin-bottom: 100px;
+.width2 {
+  margin-bottom: 100px;
 }
