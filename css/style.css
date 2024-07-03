@@ -197,6 +197,17 @@ h1 {
   width: 100%;
 }
 
+.heroText {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  align-items: center;
+}
+
 .hero {
   margin: 0;
   padding-bottom: 0;
@@ -270,5 +281,24 @@ h1 {
 
 .best {
   text-align: center;
-  background-color: rgb(20, 151, 206);
+  background-color: #0e95cd;
+}
+
+.sellListItem {
+  background-color: rgb(68, 170, 249);
+  max-width: 150px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.sellListItem img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.sellList {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }

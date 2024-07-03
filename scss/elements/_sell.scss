@@ -1,0 +1,17 @@
+.sellListItem {
+  img {
+    width: 90%;
+    border-radius: 10px;
+  }
+  background-color: rgb(68 170 249);
+  max-width: 150px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.sellList{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
