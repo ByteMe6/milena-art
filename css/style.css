@@ -302,3 +302,20 @@ h1 {
   flex-wrap: wrap;
   margin-top: 30px;
 }
+
+.contact {
+  background-color: #ef9513;
+  text-align: center;
+}
+
+.contactList {
+  display: flex;
+  justify-content: space-around;
+}
+.contactList li img {
+  max-width: 70px;
+}
+
+h2 {
+  font-size: xx-large;
+}
